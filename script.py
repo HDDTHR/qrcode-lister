@@ -30,7 +30,7 @@ def run_script(args: Args):
             continue
 
         for txt in decoded_info:
-            if len(txt) is not 0:
+            if len(txt) != 0:
                 result.append(txt)
     
     args.output_file.write('\n'.join(result))
