@@ -1,4 +1,4 @@
-# QRCode-lister
+# QRCode Lister
 
 ### Useful links
 
