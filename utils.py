@@ -1,12 +1,17 @@
 from dataclasses import dataclass
+from io import TextIOWrapper
 import os
 import argparse
 
 from typing import AnyStr, Tuple
 
+
 @dataclass
 class Args:
     input_directory: str
+    loglevel: int
+    output_file: TextIOWrapper
+
 
 def directory(raw_path) -> AnyStr:
     if not os.path.isdir(raw_path):
