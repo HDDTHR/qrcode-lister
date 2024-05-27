@@ -31,8 +31,6 @@ def run_script(args: Args):
             logging.warn(f"{file} doesn't contain a QR code.")
             continue
 
-        print(is_qr_present, decoded_info)
-
         for txt in decoded_info:
             if len(txt) is not 0:
                 result.append(txt)

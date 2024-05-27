@@ -22,9 +22,7 @@ def main():
     args_obj = parser.parse_args()
     args = Args(input_directory=args_obj.input_directory,
                 loglevel=args_obj.loglevel, output_file=args_obj.output_file)
-
-    print(args)
-
+    
     run_script(args)
 
 
