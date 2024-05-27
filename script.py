@@ -1,8 +1,6 @@
 from fileinput import filename
 import logging
-import os
 import cv2
-import numpy as np
 
 from utils import Args, get_absolute_filepaths
 
